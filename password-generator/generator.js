@@ -78,7 +78,7 @@
         charactersSelection[(Math.random() * charactersSelection.length) | 0];
       index++;
     } while (index <= pwdRequirements.length);
-    password.appendChild(document.createTextNode(generatedPassword));
+    password.innerHTML = generatedPassword
   }
 })();
 /* 
